@@ -155,13 +155,13 @@ The Logo is just a simple text using MavenPro as the font
 
 Here is a diagram showing the possible flow through the site. There are 2 sections shown here. On the left it shows the Admin and the right shows a site user.
 
-![Site Flow Diagram](documentation/images/site_flow_diagram.png)
+![Site Flow Diagram](documentation/Images/site_flow_diagram.png)
 
 ## Database Plan
 
 The database plan is fairly simple, but it shows the information that is stored within the database, the type of data and if it is logged as a Primary or Foreign key where applicable.
 
-![Database plan](documentation/images/database_plan.png)
+![Database plan](documentation/Images/database_plan.png)
 
 # Features
 
@@ -170,21 +170,21 @@ The database plan is fairly simple, but it shows the information that is stored 
 The user can Sign up
 
 
-![Create an Account](documentation/images/Signup.png)
+![Create an Account](documentation/Images/Signup.png)
 
 ## View Blog Posts on Home Page
 
-![View on Home Page](documentation/images/Homepage.png)
+![View on Home Page](documentation/Images/Homepage.png)
 
 ## Browse by Post Category
 
-![Browse by Post Category](documentation/images/Categories.png)
+![Browse by Post Category](documentation/Images/Categories.png)
 
 ## Comment on Blog Posts.
 
 *Also shown here is the trashcan which allows users to upvote or downvote*
 
-![Comment on Blog Posts](documentation/images/comment.png)
+![Comment on Blog Posts](documentation/Images/comment.png)
 
 
 ## Subreddit Selection
@@ -192,7 +192,7 @@ Users can choose their favorite subreddits to customize their news feed. The app
 
 ## News Feed
 
-The heart of the application, the news feed displays the latest and most popular posts from the selected subreddits. Users can scroll through posts, view images, and read article previews without leaving the application.
+The heart of the application, the news feed displays the latest and most popular posts from the selected subreddits. Users can scroll through posts, view Images, and read article previews without leaving the application.
 
 
 ## Search Functionality
@@ -225,7 +225,7 @@ For subreddit moderators, the application offers moderation tools to manage and 
 
 ## External Links Handling
 
-The application gracefully handles external links, allowing users to open articles, images, or websites associated with posts directly within the app.
+The application gracefully handles external links, allowing users to open articles, Images, or websites associated with posts directly within the app.
 
 
 ## Future Features
@@ -248,7 +248,7 @@ These are the technologies used in building this project:
 - [CodeAnywhere](https://www.codeanywhere.com) the IDE where the site was built.
 - [PEP8 Validator](https://pep8ci.herokuapp.com/) Used to check python code for errors
 - [ElephandSQL](https://www.elephantsql.com/) Used to store PostgreSQL database.
-- [Cloudinary](https://cloudinary.com/) Used as cloud storage for images uploaded as part of the blog posts
+- [Cloudinary](https://cloudinary.com/) Used as cloud storage for Images uploaded as part of the blog posts
 - [Heroku](https://id.heroku.com/) Used to deploy the project
 
 # Programming Languages, Frameworks and Libraries Used
@@ -296,7 +296,7 @@ Towards the end of completion, I had an issue with the database, where I had mad
 
 To enable me to reset the database, I first had to comment out the code (related to "choices" in the model) to stop the code being run and causing an error. Once this was done, the database was reset, seemingly without issue.
 
-Then I had a problem with the "Create a Post" page. When adding a new blog post via the browser, the images were not being sent to cloudinary for cloud storage, and the ElephantSQL cloud database was also not recieving any data. This was a very simple fix as I needed to add ```enctype="multipart/form-data"``` into the form element.
+Then I had a problem with the "Create a Post" page. When adding a new blog post via the browser, the Images were not being sent to cloudinary for cloud storage, and the ElephantSQL cloud database was also not recieving any data. This was a very simple fix as I needed to add ```enctype="multipart/form-data"``` into the form element.
 
 ## Lighthouse
 
@@ -304,11 +304,11 @@ Using Lighthouse these were the scores obtained
 
 Mobile
 
-![Lighthouse Mobile Score](documentation/images/lighthouse_mobile.png)
+![Lighthouse Mobile Score](documentation/Images/lighthouse_mobile.png)
 
 Desktop
 
-![Lighthouse Desktop Score](documentation/images/score.png)
+![Lighthouse Desktop Score](documentation/Images/score.png)
 
 ## Validation Testing
 
@@ -318,7 +318,7 @@ HTML & CSS testing was done using [W3 Validator](https://validator.w3.org/)
 
 When validating the code, There were no errors found as shown below
 
-![HTML Validation - Descendant Error](documentation/images/html%20checking.png)
+![HTML Validation - Descendant Error](documentation/Images/html%20checking.png)
 
 
 ## Python Testing
@@ -405,9 +405,9 @@ ___
 
 ## Media
 
-For placeholder images when no image is uploaded to blog post, I have used [picsum](https://picsum.photos/) which provides a library of stock images that display as a placeholder.
+For placeholder Images when no image is uploaded to blog post, I have used [picsum](https://picsum.photos/) which provides a library of stock Images that display as a placeholder.
 
-All other content and images are my own.
+All other content and Images are my own.
 
 ___
 
